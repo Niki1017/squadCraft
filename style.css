@@ -15,27 +15,36 @@ header img{
     padding-top: 15px;
 }
 .name-server{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: #fff;
     font-size: 5em;
 }
-.container p{
+.container{
+    position: relative;
+    background-image: url("image.png");
+    height: 600px;
+    background-size: cover;
+}
+.head-info{
     position: absolute;
-    top: 60%;
+    text-align: center;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    /* background-color: aqua; */
+}
+.container p{
+    /* position: absolute;
+     top: 60%;
+     left: 50%;
+    transform: translate(-50%, -50%); */
     color: #fff;
     font-size: 30px;
 }
 .links{
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
+    margin-top: 30px;
+}
+.links a{
+    display: inline-block;
 }
 .one-link{
     margin-left: 20px;
@@ -56,21 +65,46 @@ header img{
     text-decoration: none;
     font-size: 20px;
 }
+.info{
+    margin: auto;
+    font-size: 0px;
+    width: 90%;
+    max-width: 860px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .text{
-    position: absolute;
-    margin-left: 300px;
-    margin-top: 90px;
+    display: inline-block;
+    width: 50%;
+    /* background-color: aqua; */
+    vertical-align: middle;
+    padding-right: 20px;
 }
 .text h1{
-    margin-left: 80px;
+    font-size: 40px;
+    /* margin-left: calc(50% - 30px); */
     color: #fff;
 }
 .text p{
+    font-size: 15px;
     margin-top: 30px;
     color: #fff;
-    margin-left: 80px;
+    /* margin-left: calc(50% - 30px); */
 }
 .minecraft{
-    float: right;
-    margin-right: calc(100% - 75%);
+    vertical-align: middle;
+    width: 50%;
+
+    /* object-position: left; */
+    /* float: right; */
+    /* margin-right: 60px; */
+}
+footer{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+footer p{
+    color: #fff;
+    margin-bottom: 10px;
 }
