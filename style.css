@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: black;
+}
+header img{
+    width: 318px;
+    height: 79px;
+    object-fit: cover;
+    margin-left: 90px;
+    padding-top: 15px;
+}
+.name-server{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 5em;
+}
+.container p{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 30px;
+}
+.links{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.one-link{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+    background: green;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 20px;
+}
+.two-link{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+    background: blue;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.text{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 90px;
+}
+.text h1{
+    margin-left: 80px;
+    color: #fff;
+}
+.text p{
+    margin-top: 30px;
+    color: #fff;
+    margin-left: 80px;
+}
+.minecraft{
+    float: right;
+    margin-right: calc(100% - 75%);
+}
