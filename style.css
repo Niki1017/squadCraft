@@ -11,7 +11,7 @@ header img{
     width: 318px;
     height: 79px;
     object-fit: cover;
-    margin-left: 90px;
+    margin-left: 30px;
     padding-top: 15px;
 }
 .name-server{
@@ -55,6 +55,7 @@ header img{
     text-decoration: none;
     border-radius: 25px;
     font-size: 20px;
+    margin: 10px;
 }
 .two-link{
     margin-left: 20px;
@@ -64,6 +65,7 @@ header img{
     padding: 10px;
     text-decoration: none;
     font-size: 20px;
+    margin: 10px;
 }
 .info{
     margin: auto;
@@ -94,7 +96,6 @@ header img{
 .minecraft{
     vertical-align: middle;
     width: 50%;
-
     /* object-position: left; */
     /* float: right; */
     /* margin-right: 60px; */
